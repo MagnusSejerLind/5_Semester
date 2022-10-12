@@ -2,8 +2,8 @@ clc,clear,close all
 
 % Constants
 xD = 7;      % Distance between turbine to rotor diameter fraction
-% kw = 0.75;   % Wake expansion parameter (onshore)
-kw = 0.04;   % Wake expansion parameter (offshore)
+kw = 0.075;   % Wake expansion parameter (onshore)
+% kw = 0.04;   % Wake expansion parameter (offshore)
 
 % parameter
 a1 = linspace(0,1/3,100);  % Axial induction factor
